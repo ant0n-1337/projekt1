@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'cutiveMono';
+    src: url("fonts/CutiveMono-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    font-family: 'cutiveMono';
+}
+
+#menu{
+    position: absolute;
+    width: auto;
+    height: auto;
+    
+    box-sizing: border-box;
+
+    bottom: 2%;
+    left: -1%;
+}
+
+#menu2{
+    position: absolute;
+    width: auto;
+    height: auto;
+
+    box-sizing: border-box;
+
+    bottom: 1.72%;
+    left: 9%;
+}
+
+.menuList{
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+
+.menuList > li{
+    padding: 6%;
+}
+
+.menuItem:hover{
+    font-weight: bold;
+}
+
+.menuItem:active{
+    font-size: 110%;
+}
+
+#jdm_logo{
+    position: absolute;
+    width: 33%;
+    bottom: 15%;
+    left: -1%;
+}
+
+#panel{
+    display: inline-block;
+    position: absolute;
+    top: 12%;
+    left: 57%;
+    width: 40%;
+}
+
+#panelBorder{
+    position: relative;
+    min-height: 40%;
+    max-height: 1000px;
+}
+
+.carDescription{
+    position: relative;
+    height: auto;
+}
+
+#carShowcase{
+    position: relative;
+
+    width: 100%;
+
+    float: left;
+    left: 5%;
+}
+
+.picChange{
+    font-size: 150%;
+}
+
+.picChange:hover{
+    font-weight: bold;
+}
+
+.picChange:active{
+    font-size: 110%;
+}
