@@ -214,7 +214,12 @@ function setPic(){
     img.src = "img/"+currentModel+"_1.png"
 }
 
-function picChange(number){
-    var img = document.getElementById("carShowcase")
-    img.src = "img/"+currentModel+"_"+number+".png"
+function picChange(){
+    var img = document.getElementById('carShowcase');
+    if(img.src.match(currentModel+"_1")) {
+        img.src = "img/"+currentModel+"_2.png";
+    }
+    else {
+        img.src = "img/"+currentModel+"_1.png";
+    }
 }
