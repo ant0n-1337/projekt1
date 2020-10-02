@@ -22,12 +22,13 @@ html{
 
 #menu2{
     position: absolute;
+    min-width: 12%;
     width: auto;
     height: auto;
 
     box-sizing: border-box;
 
-    bottom: 1.72%;
+    bottom: 1.45%;
     left: 9%;
 }
 
@@ -37,8 +38,12 @@ html{
     
 }
 
-.menuList > li{
+#menu > .menuList > li{
     padding: 6%;
+}
+
+#menu2 > .menuList > li{
+    padding: 3.15%;
 }
 
 .menuItem:hover{
@@ -48,6 +53,8 @@ html{
 .menuItem:active{
     font-size: 110%;
 }
+
+
 
 #jdm_logo{
     position: absolute;
