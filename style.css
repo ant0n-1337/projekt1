@@ -7,6 +7,7 @@
 
 html{
     font-family: 'cutiveMono';
+    user-select: none;
 }
 
 #menu{
@@ -88,18 +89,12 @@ html{
     width: 100%;
 
     float: left;
-    left: 5%;
 }
 
 .picChange{
+    position: aboslute;
     font-size: 150%;
-    padding: 1%;
+    padding: 1.5%;
+    cursor: pointer;
 }
 
-.picChange:hover{
-    font-weight: bold;
-}
-
-.picChange:active{
-    font-size: 110%;
-}
