@@ -1,0 +1,35 @@
+#menu{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    
+    box-sizing: border-box;
+
+    bottom: 3.5%;
+    left: -1%;
+}
+
+.menuList{
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+
+#menu > .menuList > li{
+    padding: 0.3%;
+}
+
+.menuItem:hover{
+    font-weight: bold;
+}
+
+.menuItem:active{
+    font-size: 110%;
+}
+
+#jdm_logo{
+    position: absolute;
+    width: 33%;
+    bottom: 15%;
+    left: -1%;
+}

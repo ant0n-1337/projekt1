@@ -1,0 +1,87 @@
+#menu{
+    position: absolute;
+    width: auto;
+    height: auto;
+    
+    box-sizing: border-box;
+
+    bottom: 2%;
+    left: -1%;
+}
+
+#menu2{
+    position: absolute;
+    min-width: 12%;
+    width: auto;
+    height: auto;
+
+    box-sizing: border-box;
+
+    bottom: 1.45%;
+    left: 9%;
+}
+
+.menuList{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#menu > .menuList > li{
+    padding: 6%;
+}
+
+#menu2 > .menuList > li{
+    padding: 3.15%;
+}
+
+.menuItem:hover{
+    font-weight: bold;
+}
+
+.menuItem:active{
+    font-size: 110%;
+}
+
+#jdm_logo{
+    position: absolute;
+    width: 33%;
+    bottom: 15%;
+    left: -1%;
+    cursor: pointer;
+}
+
+#panel{
+    display: none;
+    position: absolute;
+    display: none;
+    top: 12%;
+    left: 57%;
+    width: 40%;
+}
+
+#panelBorder{
+    position: relative;
+    min-height: 40%;
+    max-height: 1000px;
+}
+
+.carDescription{
+    position: relative;
+    height: auto;
+}
+
+#carShowcase{
+    position: relative;
+
+    width: 100%;
+
+    float: left;
+}
+
+.picChange{
+    position: aboslute;
+    font-size: 150%;
+    padding: 1.5%;
+    cursor: pointer;
+}
+

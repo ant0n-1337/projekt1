@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="home-form-style.css">
+
+    <script src="nav-script.js" type="application/javascript"></script>
+
+    <title>JDM Salon Motoryzacyjny</title>
+</head>
+<body>
+    <img src="img/jdm_logo.png" id="jdm_logo" onclick="homepage()">
+    <div id="menu">
+        <ul class="menuList">
+            <li class="menuItem" onclick="homepage()">Powrót do strony głownej</li>
+        </ul>
+    </div>
+        <div id="panel">
+            <fieldset id="panelBorder">
+                <legend>Formularz kontaktowy</legend>           
+                
+                <form>
+                    <label for="imie">Imie:</label><br>
+                    <input type="text" id="imie" name="imie" class="daneosobowe"><br>
+                    <label for="nazwisko">Nazwisko:</label><br>
+                    <input type="text" id="nazwisko" name="nazwisko" class="daneosobowe"><br><br>
+
+                    <label for="tresc">Treść wiadomości:</label><br>
+                    <textarea rows="13" id="tresc" name="tresc"></textarea><br><br>
+                    
+                    <label for="temat">Wybierz temat swojej wiadomości</label><br>
+                    <div id="problemWybor">
+                        <input type="radio" id="temat1" name="temat">
+                        <label for="temat1">Zakup samochodu</label><br>
+                        <input type="radio" id="temat2" name="temat">
+                        <label for="temat2">Serwis</label><br>
+                        <input type="radio" id="temat3" name="temat">
+                        <label for="temat3">Blacharnia/lakiernia</label><br>
+                        <input type="radio" id="temat4" name="temat">
+                        <label for="temat4">Obsługa klienta</label><br>
+                        <input type="radio" id="temat5" name="temat">
+                        <label for="temat5">Ubezpieczenia/raty</label><br>
+                        <input type="radio" id="temat6" name="temat">
+                        <label for="temat6">Inne</label>
+                    </div>
+                    <br>
+                    <input type="submit" value="Wyślij" id="submit">
+                </form>
+            </fieldset>
+        </div>
+    </div>
+</body>
+</html>
