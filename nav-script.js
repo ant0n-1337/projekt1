@@ -1,5 +1,5 @@
 function sellpage(){
-    location.replace("index.html")
+    location.replace("sellpage.html")
 }
 
 function contact(){
@@ -7,5 +7,5 @@ function contact(){
 }
 
 function homepage(){
-    location.replace("home.html")
+    location.replace("index.html")
 }
